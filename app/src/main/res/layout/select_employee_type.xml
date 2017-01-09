@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Employee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Employee"
+        android:layout_marginBottom="211dp"
+        android:background="@drawable/edittext"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/Manager"
+        android:layout_alignStart="@+id/Manager" />
+
+    <Button
+        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:background="@drawable/edittext"
+        android:drawableLeft="@drawable/logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/Employee"
+        android:layout_toStartOf="@+id/Employee" />
+
+    <Button
+        android:text="Manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Manager"
+        android:background="@drawable/edittext"
+        android:layout_above="@+id/Employee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp" />
+
+
+</RelativeLayout>

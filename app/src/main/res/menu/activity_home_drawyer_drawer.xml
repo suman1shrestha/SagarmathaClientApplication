@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Employee"
+            android:title="Employee"
+            android:icon="@drawable/employee"
+            android:onClick="onNavigationItemSelected"/>
+        <item
+            android:id="@+id/Schedule"
+            android:title="Schedule"
+            android:icon="@drawable/schedule"
+            android:onClick="onNavigationItemSelected"/>
+        <item
+            android:id="@+id/Appointments"
+            android:title="Appointments"
+            android:icon="@drawable/appointment"
+            android:onClick="onNavigationItemSelected"/>
+        <item
+            android:id="@+id/History"
+            android:title="History"
+            android:icon="@drawable/history"
+            android:onClick="onNavigationItemSelected"/>
+        <item
+            android:id="@+id/Profile"
+            android:title="Profile"
+            android:icon="@drawable/profile"
+            android:onClick="onNavigationItemSelected"/>
+        <item
+            android:id="@+id/Notification"
+            android:title="Notification"
+            android:icon="@drawable/notification"
+            android:onClick="onNavigationItemSelected"/>
+        <item
+            android:id="@+id/Help"
+            android:title="Help"
+            android:icon="@drawable/help"
+            android:onClick="onNavigationItemSelected"/>
+        <item
+            android:id="@+id/Feedback"
+            android:title="Feedback"
+            android:icon="@drawable/feedback"
+            android:onClick="onNavigationItemSelected"/>
+        <item
+            android:id="@+id/Signout"
+            android:title="Signout"
+            android:icon="@drawable/logout"
+            android:onClick="onNavigationItemSelected"/>
+    </group>
+
+
+</menu>
